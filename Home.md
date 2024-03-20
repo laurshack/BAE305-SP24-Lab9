@@ -29,6 +29,8 @@ By the end of the lab we had created a robot capable of maintaining a fixed dist
 
 ## Testing, Design, and Methods
 
+### Prelab - Creation of Robot
+
 ### Part 1 - PID Use
 1. Install PID_V2 library by Brett Beauregard on Arduino IDE
 2. Modify robot sketch to include the following:
@@ -66,3 +68,8 @@ The full code for part 1 is as follows:
 
 ## Conclusion
 
+This lab introduced us to the PID controller. As previously mentioned PID stands for 'Proportional, Integral, Derivative'. Proportional is related to the amount of error correlated to the current measurement. Error to a PID is the amount that the measured output differs from the ideal output. Integral observes previous errors working to eliminate steady state error. The derivative term works to predict error by assessing the measured error rate of change. This is done to resist an overshoot in the systems response.
+
+The PID controller is widely used in industry to maintain 
+
+The main takeaway of this lab was that 
