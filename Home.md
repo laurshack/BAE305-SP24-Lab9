@@ -12,7 +12,7 @@ The purpose of this lab was to introduce us to the PID controller. PID controlle
 
 For this lab we worked with a robot capable of sensing its distance from an object. Our goal was to utilize a PID controller so that the robot would maintain a constant distance from any obstacle that it sensed. This meant that the robot would sense its distance from any obstacle, then it would either move backwards to increase its distance or move forwards to decrease the distance. To use our PID controller we also worked with librarys found in arduino IDE.
 
-By the end of the lab we had created a robot capable of maintaining a fixed distance from an obstacle. The robot also operated in real time. Something notable about this lab is that the working robot appeared to constantly be making adjustments to its position even if the obstacle in front of it was fixed.
+By the end of the lab we had created a robot capable of maintaining a fixed distance from an obstacle. The robot also operated in real time. Something notable about this lab is that the working robot was constantly making adjustments to its position even if the obstacle in front of it was fixed.
 
 ## Equipment
 
@@ -68,8 +68,10 @@ The full code for part 1 is as follows:
 
 ## Conclusion
 
-This lab introduced us to the PID controller. As previously mentioned PID stands for 'Proportional, Integral, Derivative'. Proportional is related to the amount of error correlated to the current measurement. Error to a PID is the amount that the measured output differs from the ideal output. Integral observes previous errors working to eliminate steady state error. The derivative term works to predict error by assessing the measured error rate of change. This is done to resist an overshoot in the systems response.
+This lab introduced us to the PID controller. As previously mentioned PID stands for 'Proportional, Integral, Derivative'. Proportional is related to the amount of error correlated to the current measurement. Error to a PID is the amount that the measured output differs from the ideal output. Integral observes previous errors working to eliminate steady-state error. The derivative term works to predict error by assessing the measured error rate of change. This is done to resist an overshoot in the systems response.
 
-The PID controller is widely used in industry to maintain 
+The PID controller is widely used in industry to maintain controlled conditions. For example, a common use of a PID controller is to sustain a steady temperature, this use can be applied in many different ways. A few ways might be to maintain temperature within a food processing plant or an oven, even the temperature in our homes. One application that we had discussed in class is also the use of a PID for cruise control within a car. The takeaway from this was that PID controllers are ingrained within our day-to-day lives. 
 
-The main takeaway of this lab was that 
+Something interesting about this lab was that the controlled car would continue to move back and forth even when placed in front of an unmoving obstacle. This was a good visualization of "overshoot" where the PID controller overcorrects and causes the error to oscillate. This also occurs because the car does not stop moving so it must move back and forth to compensate and maintain the steady distance.
+
+The main takeaway of this lab was how to use a PID controller to create a constant system output. And that a PID controller works by comparing the measured actual value to the ideal value, where the difference is known as the 'error'. The PID controller works continuously in real-time to reduce the error.
