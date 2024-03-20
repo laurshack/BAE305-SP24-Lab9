@@ -46,10 +46,15 @@ The purpose of this lab is
 ``` c++
   PID myPID(&measurement, &output, &setpoint, Kp, Ki, Kd, DIRECT);
 ```
-   - Initialize PID in within setup function
+   - Initialize PID within setup function
 ``` c++
  myPID.SetTunings(Kp, Ki, Kd);
-myPID.SetMode(AUTOMATIC);
+ myPID.SetMode(AUTOMATIC);
+```
+The full code for part 1 is as follows:
+
+### Part 2 - Keep Your Distance
+1. 
 
 
 ## Results
