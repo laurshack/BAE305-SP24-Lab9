@@ -57,11 +57,7 @@ The full code for part 1 is as follows:
 1. 
 
 
-## Results
-
-
-
-## Discussion
+## Results & Discussion
 
 
 ## Conclusion
