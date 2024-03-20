@@ -12,6 +12,8 @@ The purpose of this lab was to introduce us to the PID controller. PID controlle
 
 For this lab we worked with a robot capable of sensing its distance from an object. Our goal was to utilize a PID controller so that the robot would maintain a constant distance from any obstacle that it sensed. This meant that the robot would sense its distance from any obstacle, then it would either move backwards to increase its distance or move forwards to decrease the distance. To use our PID controller we also worked with librarys found in arduino IDE.
 
+By the end of the lab we had created a robot capable of maintaining a fixed distance from an obstacle. The robot also operated in real time. Something notable about this lab is that the working robot appeared to constantly be making adjustments to its position even if the obstacle in front of it was fixed.
+
 ## Equipment
 
 - Computer to run Arduino IDE
