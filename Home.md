@@ -258,7 +258,7 @@ The final code should look like the following:
 
 ## Discussion of Results
 
-
+While we were able to implement our PID control, we had some issues with overshoot in part 2. The robot was able to sense an object in front of it and stop moving forward if the object was less than the set distance from the sensor. However, it would then continue to move back and forth while the object was stationary. While this is expected with the use of a PID controller, our robot was consistently moving a few centimeters back and forth, which is more overshoot than should be present. We were able to slightly reduce this distance by adjusting the Ki value, but not to the expected amount. 
 
 ## Conclusion
 
