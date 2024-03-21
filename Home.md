@@ -250,7 +250,7 @@ The full code for part 1 is as follows:
 1. 
 
 
-## Discussion
+## Discussion of Results
 
 
 ## Conclusion
