@@ -8,7 +8,7 @@ Group members:
 Date: 3/21/2024
 
 ## Summary
-The purpose of this lab was to introduce us to the PID controller. PID controller is short for 'Proportional-Integral-Derivative". A PID controller is a type of feedback controller, it regulates the system by comparing actual outputs to desired outputs. By comparing actual vs. ideal outputs a PID controller can be used to help maintain a steady state in a controlled system. This is done by first measuring, then comparing, and then if necessary it will signal a corrective action. This process is often constant to maintain ideal outputs. 
+The purpose of this lab was to introduce us to the PID controller. PID is short for 'Proportional-Integral-Derivative". A PID controller is a type of feedback controller; it regulates the system by comparing actual outputs to desired outputs. By comparing actual vs. ideal outputs, a PID controller can be used to help maintain a steady state in a controlled system. This is done by first measuring, then comparing, and then if necessary it will signal a corrective action. This process is often constant to maintain ideal outputs. 
 
 For this lab we worked with a robot capable of sensing its distance from an object. Our goal was to utilize a PID controller so that the robot would maintain a constant distance from any obstacle that it sensed. This meant that the robot would sense its distance from any obstacle, then it would either move backwards to increase its distance or move forwards to decrease the distance. To use our PID controller we also worked with libraries found in arduino IDE.
 
@@ -245,10 +245,16 @@ void leftMotor(int motorSpeed)
  myPID.SetMode(AUTOMATIC);
 ```
 The full code for part 1 is as follows:
+``` c++
+```
 
 ### Part 2 - Keep Your Distance
 1. 
+2. Tune the system as need by adjusting the values of Kp, Ki, and Kd.
 
+The final code should look like the following:
+``` c++
+```
 
 ## Discussion of Results
 
