@@ -221,7 +221,7 @@ void leftMotor(int motorSpeed)
 ### Part 1 - PID Use
 1. Install PID_V2 library by Brett Beauregard on Arduino IDE
 2. Modify robot sketch to include the following:
-   - Include PID_V2 library 
+  - Include PID_V2 library 
  
 ``` c++
   #include <PID_V2.h>
