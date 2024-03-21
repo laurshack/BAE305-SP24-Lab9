@@ -34,7 +34,7 @@ By the end of the lab we had created a robot capable of maintaining a fixed dist
 
 |![image](https://github.com/laurshack/BAE305-SP24-Lab6/blob/main/Screenshot%202024-02-22%20131720.png)|
 |:---:|
-| *Figure 2.* Circuit 2 (via https://learn.sparkfun.com/tutorials/sparkfun-inventors-kit-experiment-guide---v40/circuit-5b-remote-controlled-robot) |
+| *Figure 1.* Robot Circuit (via https://learn.sparkfun.com/tutorials/sparkfun-inventors-kit-experiment-guide---v40/circuit-5b-remote-controlled-robot) |
 
 2. Create or locate the initial code to be modified, this will consist of two main components
 
