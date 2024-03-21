@@ -249,7 +249,7 @@ The full code for part 1 is as follows:
 ```
 
 ### Part 2 - Keep Your Distance
-1. 
+1. Write a function to move the robot forward and backward depending on distance from an object. 
 2. Tune the system as need by adjusting the values of Kp, Ki, and Kd.
 
 The final code should look like the following:
