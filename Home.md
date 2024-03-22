@@ -244,6 +244,20 @@ void leftMotor(int motorSpeed)
  myPID.SetTunings(Kp, Ki, Kd);
  myPID.SetMode(AUTOMATIC);
 ```
+   - Run PID within loop function
+``` c++
+ myPID.Compute();
+```
+   - Serial write variable values
+``` c++
+ Serial.print(measurement);
+ Serial.print(output);
+ Serial.print(setpoint);
+ Serial.print(Kp);
+ Serial.print(Ki);
+ Serial.print(Kd);
+```
+
 The full code for part 1 is as follows:
 ``` c++
 
@@ -311,7 +325,7 @@ void setup()
   Serial.println("Example command: f 1");
 
   pinMode(trigPin, OUTPUT);  
-	pinMode(echoPin, INPUT); 
+  pinMode(echoPin, INPUT); 
 
   Serial.print(measurement);
   Serial.print(output);
