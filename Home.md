@@ -449,7 +449,7 @@ void leftMotor(int motorSpeed)                        //function for driving the
 1. Write a function to move the robot forward and backward depending on distance from an object. 
 2. Tune the system as needed by adjusting the values of Kp, Ki, and Kd.
 
-The final code should look like the following:
+The final code should look similar to the following:
 ``` c++
 #include <PID_v2.h>
 
